@@ -1,0 +1,37 @@
+/* .title{
+    color: rgb(179, 13, 179);
+} */
+ /* group */
+ h1, h2 {
+    color:rgb(179, 13, 179);
+ }
+
+/* child */
+.box > p {
+    color: red;
+}
+
+/* .box p.done{
+    color: red;
+} */
+
+ /* decendent */
+/* .list li{
+    color: blue;
+} */
+.box li{
+    color: blue;
+}
+
+/* chianed */
+/* .list li.done{
+    color: green;
+} */
+li.done{
+    color: green;
+}
+
+/* multipled combiners */
+ul p.done{
+    font-size: 0.5rem;
+}
